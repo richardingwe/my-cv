@@ -117,3 +117,25 @@
 	padding: 5px 120px;
 	margin-bottom: 15px;
 }
+.body .stack .row1,
+.body .stack .row2 {
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.body .stack .row2 {
+	width: 85%;
+}
+
+.body .stack .row1 div,
+.body .stack .row2 div {
+	color: #363636;
+	font-weight: 700;
+}
+.body .stack .row1 svg,
+.body .stack .row2 svg {
+	width: 10px;
+}
