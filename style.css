@@ -74,3 +74,29 @@
 	margin-bottom: 18px;
 	padding: 0 4px;
 }
+
+.body .about-me .software .apps,
+.body .about-me .skills .apps {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 3rem;
+}
+
+.body .about-me .software .apps .app,
+.body .about-me .skills .apps .app {
+	margin-bottom: 15px;
+}
+.body .about-me .software .apps .app .app-name,
+.body .about-me .skills .apps .app .app-name {
+	color: #363636;
+	font-weight: 500;
+	margin-bottom: 8px;
+}
+.body .about-me .software .apps .app svg,
+.body .about-me .skills .apps .app svg {
+	width: 18px;
+	margin-right: 13px;
+}
