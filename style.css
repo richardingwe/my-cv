@@ -294,7 +294,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		align-items: flex-start;
+		align-items: center;
 		padding: 0 1rem;
 	}
 
@@ -324,7 +324,7 @@
 	}
 
 	.body .stack .heading {
-		width: auto;
+		width: 100%;
 		background-color: #280d47;
 		padding: 5px 60px;
 		margin-bottom: 15px;
@@ -367,7 +367,7 @@
 	}
 	.body .exp-edu .heading {
 		text-align: center;
-		width: auto;
+		width: 100%;
 		background-color: #280d47;
 		padding: 5px 50px;
 		margin-bottom: 2rem;
@@ -461,7 +461,7 @@
 	/* body section */
 
 	.body {
-		padding: 2rem 3rem 1rem 3rem;
+		padding: 2rem 2rem 1rem 2rem;
 		background-color: white;
 		color: white;
 	}
@@ -491,7 +491,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		align-items: flex-start;
+		align-items: center;
 		padding: 0 0rem;
 	}
 
@@ -521,7 +521,7 @@
 	}
 
 	.body .stack .heading {
-		width: auto;
+		width: 100%;
 		background-color: #280d47;
 		font-size: 25px;
 		padding: 5px 30px;
@@ -566,7 +566,7 @@
 	}
 	.body .exp-edu .heading {
 		text-align: center;
-		width: auto;
+		width: 100%;
 		background-color: #280d47;
 		font-size: 25px;
 		padding: 5px 30px;
@@ -595,10 +595,10 @@
 	}
 
 	.body .exp-edu .exp .row {
-		margin-bottom: 5rem;
+		margin-bottom: 2rem;
 	}
 	.body .exp-edu .edu .row {
-		margin-bottom: 5rem;
+		margin-bottom: 2rem;
 	}
 	.body .exp-edu .exp h3,
 	.body .exp-edu .edu h3,
