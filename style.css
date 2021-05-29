@@ -5,6 +5,13 @@
 	font-family: Montserrat;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: underline;
+}
 .container {
 	padding: 0 10rem;
 	margin: 0 auto;
@@ -25,6 +32,7 @@
 	justify-content: space-between;
 	align-items: center;
 	margin: 5px 0;
+	font-size: 1rem;
 }
 .heading h1 {
 	font-weight: normal;
@@ -152,7 +160,7 @@
 	width: auto;
 	background-color: #280d47;
 	padding: 5px 70px;
-	margin-bottom: 7rem;
+	margin-bottom: 4rem;
 }
 
 .body .exp-edu .edu .heading {
