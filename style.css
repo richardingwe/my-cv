@@ -204,6 +204,25 @@ a:hover {
 	font-size: 14px;
 }
 
+.download {
+	width: 70px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	right: 3rem;
+	bottom: 3rem;
+	z-index: 999;
+	cursor: pointer;
+	background-color: #280d47;
+	border-radius: 50%;
+}
+.download svg {
+	width: 35px;
+	z-index: 999;
+}
+
 @media (max-width: 1500px) {
 	.body .about-me .software .apps,
 	.body .about-me .skills .apps {
