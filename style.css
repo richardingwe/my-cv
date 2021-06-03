@@ -233,6 +233,7 @@ a:hover {
 .download:hover {
 	width: 170px;
 	border-radius: 50px;
+	text-decoration: none;
 }
 .download:hover span {
 	display: block;
