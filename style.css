@@ -217,10 +217,25 @@ a:hover {
 	cursor: pointer;
 	background-color: #280d47;
 	border-radius: 50%;
+	transition: all 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
 .download svg {
 	width: 35px;
+	height: auto;
 	z-index: 999;
+}
+.download span {
+	display: none;
+	margin-left: 10px;
+	color: #fff;
+}
+.download:hover {
+	width: 170px;
+	border-radius: 50px;
+}
+.download:hover span {
+	display: block;
 }
 
 @media (max-width: 1500px) {
@@ -440,6 +455,13 @@ a:hover {
 	.body .exp-edu .edu p {
 		color: #363636;
 		font-size: 14px;
+	}
+
+	/* download button section */
+
+	.download {
+		bottom: 2rem;
+		right: 1.2rem;
 	}
 }
 @media (max-width: 320px) {
