@@ -26,7 +26,8 @@ a:hover {
 .title-email,
 .github,
 .behance,
-.linkedin {
+.linkedin,
+.website {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -43,14 +44,20 @@ a:hover {
 
 .github div:first-child,
 .behance div:first-child,
-.linkedin div:first-child {
+.linkedin div:first-child,
+.website div:first-child {
 	font-size: small;
 }
 .github svg,
 .behance svg,
-.linkedin svg {
+.linkedin svg,
+.website svg {
 	width: 19px;
 	margin-right: 20px;
+}
+
+.website a {
+	font-weight: bold;
 }
 
 /* body section */
@@ -357,7 +364,8 @@ a:hover {
 	.title-email,
 	.github,
 	.behance,
-	.linkedin {
+	.linkedin,
+	.website {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -376,12 +384,14 @@ a:hover {
 
 	.github div:first-child,
 	.behance div:first-child,
-	.linkedin div:first-child {
+	.linkedin div:first-child,
+	.website div:first-child {
 		font-size: small;
 	}
 	.github img,
 	.behance img,
-	.linkedin img {
+	.linkedin img,
+	.website img {
 		width: 19px;
 		margin-right: 20px;
 	}
@@ -564,7 +574,8 @@ a:hover {
 	.title-email,
 	.github,
 	.behance,
-	.linkedin {
+	.linkedin,
+	.website {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -582,12 +593,14 @@ a:hover {
 
 	.github div:first-child,
 	.behance div:first-child,
-	.linkedin div:first-child {
+	.linkedin div:first-child,
+	.website div:first-child {
 		font-size: small;
 	}
 	.github img,
 	.behance img,
-	.linkedin img {
+	.linkedin img,
+	.website img {
 		width: 19px;
 		margin-right: 20px;
 	}
